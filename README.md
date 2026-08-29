@@ -50,6 +50,35 @@ A full-stack **eCommerce web application** built using the **MERN stack (MongoDB
 
 ---
 
+## 📁 Project Structure
+
+```text
+E-Commerce-Platform/
+│
+├── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── utils/
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── screens/
+│       └── App.js
+│
+├── data/
+├── .env.example
+├── package.json
+└── README.md
+```
+
+---
+
 ## 📥 Installation
 
 ### 1. Clone the Repository
@@ -143,41 +172,6 @@ Build the React frontend for production:
 ```bash
 cd frontend
 npm run build
-```
-
----
-
-## 🌐 Live Demo
-
-**Customer Application**
-
-[Open E-Commerce Platform](https://mern-shop-abxs.onrender.com/login?utm_source=chatgpt.com)
-
-**Admin Dashboard**
-
-[Open Admin Dashboard](https://mern-shop-abxs.onrender.com/admin/login?utm_source=chatgpt.com)
-
----
-
-## 🔑 Demo Credentials
-
-### Admin
-
-```text
-Email: admin@admin.com
-Password: admin123
-```
-
-### Customer
-
-```text
-Email: john@email.com
-Password: john123
-```
-
-```text
-Email: alice@email.com
-Password: alice123
 ```
 
 ---
